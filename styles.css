@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+.container {
+  margin: 20px;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  width: 35%;
+  height: 50px;
+  word-wrap: break-word; /* Handle long text */
+  overflow: hidden;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #f1f1f1; /* Add hover effect */
+}
+#fetchDataButton {
+  border: 1px solid;
+  width: 180px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: blue;
+  color: #f2f2f2;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
